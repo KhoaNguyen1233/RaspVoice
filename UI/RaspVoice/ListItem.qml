@@ -27,4 +27,20 @@ Item {
             }
         }
     }
+
+    ListModel{
+        id: testModel
+        ListElement{
+            mcmdName: "Fans"
+            mcmdValue: "1232153"
+        }
+        ListElement{
+            mcmdName: "Diffuser"
+            mcmdValue: "1232153"
+        }
+        ListElement{
+            mcmdName: "Light"
+            mcmdValue: "1232153"                    
+        }
+    }
 }

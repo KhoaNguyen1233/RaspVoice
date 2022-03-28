@@ -4,7 +4,8 @@ Item {
     property string title
     property color buttonColor
     property int buttonState: 0
-
+    property string stage1
+    property string stage2
     Rectangle{
         anchors.fill: parent
         color: buttonColor
@@ -19,13 +20,13 @@ Item {
             anchors.fill: parent
             onClicked: {
                 if(buttonState == 0){
-                    console.log("Start")
+                    console.log(stage1)
                     buttonState = 1
-                    buttonText.text = "Stop"
+                    buttonText.text = stage2
                 }else{
-                    console.log("Stop")
+                    console.log(stage2)
                     buttonState = 0
-                    buttonText.text = title
+                    buttonText.text = stage1
                 }
             }
         }

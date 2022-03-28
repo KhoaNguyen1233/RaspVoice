@@ -6,7 +6,7 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Smart Home IoT Station")
 
     Column{
         anchors.fill: parent
@@ -39,6 +39,8 @@ Window {
                     Layout.rightMargin: 20
                     title: "Record"
                     buttonColor: "#009CC7"
+                    stage1: "Record"
+                    stage2: "Stop"
                 }
             }
         }
@@ -52,6 +54,101 @@ Window {
                 width: (parent.width * 0.25 > 200) ? 200 : parent.width * 0.25
                 height: parent.height
                 color: "#00789A"
+                Column{
+                    height: parent.height
+                    width: parent.width
+                    topPadding: 10
+                    bottomPadding: 10
+                    spacing: 5
+                    Row{
+                        id: lightSection
+                        height: 50
+                        width: parent.width
+                        anchors.horizontalCenter: parent.horizontalCenter 
+                        spacing: 5
+                        Image {
+                            id: image1
+                            source: "images/idea.png"
+                            width: 30
+                            height: 30
+                        }
+                        Button{
+                            id: light
+                            width: 100
+                            height: 40
+                            title: "ON"
+                            buttonColor: "#009CC7"
+                            stage1: "ON"
+                            stage2: "OFF"
+                        }
+                    }
+                    Row{
+                        id: diffuserSection
+                        height: 50
+                        width: parent.width
+                        anchors.horizontalCenter: parent.horizontalCenter 
+                        spacing: 5
+                        Image {
+                            id: image2
+                            source: "images/diffuser.png"
+                            width: 30
+                            height: 30
+                        }
+                        Button{
+                            id: diffuser
+                            width: 100
+                            height: 40
+                            title: "ON"
+                            buttonColor: "#009CC7"
+                            stage1: "ON"
+                            stage2: "OFF"
+                        }
+                    }
+                    Row{
+                        id: socketSection
+                        height: 50
+                        width: parent.width
+                        anchors.horizontalCenter: parent.horizontalCenter 
+                        spacing: 5
+                        Image {
+                            id: image3
+                            source: "images/socket.png"
+                            width: 30
+                            height: 30
+                        }
+                        Button{
+                            id: socket
+                            width: 100
+                            height: 40
+                            title: "ON"
+                            buttonColor: "#009CC7"
+                            stage1: "ON"
+                            stage2: "OFF"
+                        }
+                    }
+                    Row{
+                        id: fanSection
+                        height: 50
+                        width: parent.width
+                        anchors.horizontalCenter: parent.horizontalCenter 
+                        spacing: 5
+                        Image {
+                            id: image4
+                            source: "images/fan.png"
+                            width: 30
+                            height: 30
+                        }
+                        Button{
+                            id: fan
+                            width: 100
+                            height: 40
+                            title: "ON"
+                            buttonColor: "#009CC7"
+                            stage1: "ON"
+                            stage2: "OFF"
+                        }
+                    }
+                }
             }
 
             Column{
@@ -78,65 +175,6 @@ Window {
                                 cmdValue: mcmdValue
                                 width: parent.width
                                 height: 70
-                            }
-                        }
-                        ListModel{
-                            id: testModel
-                            ListElement{
-                                mcmdName: "Fans"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Diffuser"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
-                            }
-                            ListElement{
-                                mcmdName: "Light"
-                                mcmdValue: "1232153"
                             }
                         }
                     }
