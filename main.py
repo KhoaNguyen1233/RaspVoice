@@ -4,6 +4,9 @@ from queue import Queue
 from sys import platform
 import os
 
+# init module
+# stupid comments
+
 def init_module():
     print ('Init module')
     
