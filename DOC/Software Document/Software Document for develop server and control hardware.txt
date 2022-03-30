@@ -1,1 +1,17 @@
-
+cgi : 
+https://docs.python.org/3/library/cgi.html?fbclid=IwAR11mMnqOLVLLfqhVpzzG4mC_n9EEH01CB2xAYhPsaPvWS06If2nYE-RaF8#functions
+https://viblo.asia/p/python-cgi-programming-gDVK2Mw05Lj
+wsgirefsimple.server: 
+https://docs.python.org/3/library/wsgiref.html?fbclid=IwAR0lsdqEa3XCLqeVzWkOqjwC68iE-Y-Ug3SrVYS3omggGaycSyVG2Ka0QoM#module-wsgiref.simple_server
+HTTP response method : 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST?fbclid=IwAR3q6b3mPcHgoVWp_STE8ZN1fmbbP1m0JY9_9AFi46vFyp-nukHPp2ZNyWg
+Basic about wsgi : 
+https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html?fbclid=IwAR1i-Uo9jPmGysQPiia4P5OiHwqio0c5U3YYXLMwiYIFuUHdip70OIhhWts
+Model view tutorial : 
+https://doc.qt.io/qt-5/modelview.html?fbclid=IwAR2mV4W_EL7RV_SvdX1YteBCxlY5CPGjhrrkRF6CNHBi6X9d0wfwSFWj_uE#:~:text=Model%2FView%20is%20a%20technology%20used%20to%20separate%20data,the%20same%2C%20but%20they%20interact%20with%20data%20differently
+Qt and Qml : 
+https://doc.qt.io/qt-5/qmlfirststeps.html
+https://doc.qt.io/qt-5/qmlapplications.html
+https://www.youtube.com/watch?v=uNmJppc-gR8
+openwrt : 
+https://openwrt.org/?fbclid=IwAR29Ysf6G2n4s_DXoGOp4x4-4jrx46idZjNkNzsQSm1soc1rHP3jLNawlWM
