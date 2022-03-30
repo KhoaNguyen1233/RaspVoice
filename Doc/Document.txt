@@ -1,2 +1,0 @@
-wsgiref : https://docs.python.org/3/library/wsgiref.html?fbclid=IwAR0lsdqEa3XCLqeVzWkOqjwC68iE-Y-Ug3SrVYS3omggGaycSyVG2Ka0QoM#module-wsgiref.simple_server
-cgi : https://viblo.asia/p/python-cgi-programming-gDVK2Mw05Lj
